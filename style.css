@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.square1{
+    width: 100px;
+    height: 85px;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 640px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    animation: spin 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+@keyframes spin{
+    0%{
+        transform: rotate(-10deg) scale(1);
+    }
+    10%{
+        transform: rotate(10deg) scale(1);
+    }
+    20%{
+        transform: rotate(20deg) scale(1);
+    }
+    30%{
+        transform: rotate(-20deg) scale(1);
+    }
+}
+.square2{
+    width: 100px;
+    height: 150px;
+    border: 3px solid black;
+    background-color:rgb(241, 57, 57);
+    border-radius: 20px;
+    margin-left: 640px;
+    position: relative;
+    z-index: 1;
+    animation: spin 2s;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+
+}
+.rectangle1{
+    width: 100px;
+    height: 10px;
+    border: 3px solid black;
+    background-color: rgb(12, 12, 14);
+    margin-left: 540px;
+    margin-top: -90px;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 2;
+
+}
+.rectangle2{
+    width: 100px;
+    height: 10px;
+    border: 3px solid black;
+    background-color: rgb(3, 3, 3);
+    margin-left: 740px;
+    margin-top: -90px;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 2;
+
+}
+.leg1{
+    width: 10px;
+    height: 100px;
+    border: 3px solid black;
+    background-color: rgb(8, 8, 8);
+    margin-left: 710px;
+    margin-top: 20px;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 2;
+
+}
+.leg2{
+    width: 10px;
+    height: 100px;
+    border: 3px solid black;
+    background-color:rgb(7, 7, 8);
+    margin-left: 660px;
+    margin-top: 10px;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 2;
+
+}
+.eye1{
+    width: 10px;
+    height: 10px;
+    border: 3px solid black;
+    background-color:white;
+    margin-left: 660px;
+    border-radius: 50%;
+    margin-top: -60px;
+    animation: spin 2s;
+    position: absolute;
+    animation-iteration-count: infinite;
+
+}
+.eye2{
+    width: 10px;
+    height: 10px;
+    border: 3px solid black;
+    background-color:white;
+    margin-left: 710px;
+    border-radius: 50%;
+    margin-top: -60px;
+    animation: spin 2s;
+    position: absolute;
+    animation-iteration-count: infinite;
+
+}
+.mouth{
+    width: 40px;
+    height: 10px;
+    border: 3px solid black;
+    background-color: rgb(0, 251, 255);
+    margin-left: 670px;
+    margin-top: -30px;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 2;
+
+
+
+}
